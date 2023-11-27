@@ -1,0 +1,56 @@
+apiVersion: v1
+entries:
+  aws-ecr-credential:
+  - apiVersion: v1
+    appVersion: 1.4.2
+    created: "2023-11-27T03:50:46.707787+03:00"
+    description: This Chart seemlessly integrates Kubernetes with AWS ECR
+    digest: 755e945f7a4ef278785653fa83b6f91eec1ff0225cbcd0761da20d20563f059a
+    keywords:
+    - aws ecr
+    - imagePullSecrets
+    - kubernetes
+    maintainers:
+    - email: me@meenaalfons.com
+      name: Meena Alfons
+    name: aws-ecr-credential
+    sources:
+    - https://github.com/architectminds/helm-charts/tree/master/charts/aws-ecr-credential
+    urls:
+    - https://raw.githubusercontent.com/onaio/helm-charts/gh-pages/aws-ecr-credential/aws-ecr-credential-1.4.2.tgz
+    version: 1.4.2
+  enketo:
+  - apiVersion: v2
+    appVersion: 4.1.2
+    created: "2023-11-27T03:50:46.715961+03:00"
+    description: A Helm chart for enketo-express
+    digest: 9cbcbf1e6aed503e8a2b2b6d9460ef0ac5ca884adc1825b73f7a61b1f01ddc11
+    home: https://github.com/enketo/enketo-express
+    name: enketo
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/onaio/helm-charts/gh-pages/enketo/enketo-0.1.1.tgz
+    version: 0.1.1
+  onadata:
+  - apiVersion: v2
+    appVersion: v3.0.3
+    created: "2023-11-27T03:50:46.717894+03:00"
+    description: A Helm chart that deploys the OnaData application
+    digest: eabd39ee208f6b76d00f0bfa16c6e2649b1bfd88e178b846e0a052e28786b004
+    name: onadata
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/onaio/helm-charts/gh-pages/onadata/onadata-1.0.0.tgz
+    version: 1.0.0
+  zebra:
+  - apiVersion: v2
+    appVersion: 2.2.4
+    created: "2023-11-27T03:50:46.719154+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 45d858f59bd59ca6c91f324ed6577767a38a0ba4674877591e54992d0078aac4
+    name: zebra
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/onaio/helm-charts/gh-pages/zebra/zebra-0.3.0.tgz
+    version: 0.3.0
+generated: "2023-11-27T03:50:46.704795+03:00"
