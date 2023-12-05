@@ -3,7 +3,7 @@ entries:
   aws-ecr-credential:
   - apiVersion: v1
     appVersion: 1.4.2
-    created: "2023-11-27T03:50:46.707787+03:00"
+    created: "2023-12-05T05:03:38.356602+03:00"
     description: This Chart seemlessly integrates Kubernetes with AWS ECR
     digest: 755e945f7a4ef278785653fa83b6f91eec1ff0225cbcd0761da20d20563f059a
     keywords:
@@ -22,7 +22,7 @@ entries:
   enketo:
   - apiVersion: v2
     appVersion: 4.1.2
-    created: "2023-11-27T03:50:46.715961+03:00"
+    created: "2023-12-05T05:03:38.357829+03:00"
     description: A Helm chart for enketo-express
     digest: 9cbcbf1e6aed503e8a2b2b6d9460ef0ac5ca884adc1825b73f7a61b1f01ddc11
     home: https://github.com/enketo/enketo-express
@@ -34,7 +34,17 @@ entries:
   onadata:
   - apiVersion: v2
     appVersion: v3.0.3
-    created: "2023-11-27T03:50:46.717894+03:00"
+    created: "2023-12-05T05:03:38.361816+03:00"
+    description: A Helm chart that deploys the OnaData application
+    digest: 46024bf11283acf529b5e4a7cdbefa42bf983b6f20e5113f07444af9ce227b58
+    name: onadata
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/onaio/helm-charts/gh-pages/onadata/onadata-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: v3.0.3
+    created: "2023-12-05T05:03:38.359435+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: eabd39ee208f6b76d00f0bfa16c6e2649b1bfd88e178b846e0a052e28786b004
     name: onadata
@@ -45,7 +55,17 @@ entries:
   zebra:
   - apiVersion: v2
     appVersion: 2.2.4
-    created: "2023-11-27T03:50:46.719154+03:00"
+    created: "2023-12-05T05:03:38.367271+03:00"
+    description: A Helm chart for Kubernetes
+    digest: d723374381fcc479a5b9ea331723ee509b388bfc78ecc3b2a7ca59525cd84418
+    name: zebra
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/onaio/helm-charts/gh-pages/zebra/zebra-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    appVersion: 2.2.4
+    created: "2023-12-05T05:03:38.365765+03:00"
     description: A Helm chart for Kubernetes
     digest: 45d858f59bd59ca6c91f324ed6577767a38a0ba4674877591e54992d0078aac4
     name: zebra
@@ -53,4 +73,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/onaio/helm-charts/gh-pages/zebra/zebra-0.3.0.tgz
     version: 0.3.0
-generated: "2023-11-27T03:50:46.704795+03:00"
+generated: "2023-12-05T05:03:38.355208+03:00"
