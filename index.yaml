@@ -3,7 +3,7 @@ entries:
   aws-ecr-credential:
   - apiVersion: v1
     appVersion: 1.4.2
-    created: "2024-01-29T10:45:28.005196306+03:00"
+    created: "2024-01-29T11:16:00.823661175+03:00"
     description: This Chart seemlessly integrates Kubernetes with AWS ECR
     digest: 755e945f7a4ef278785653fa83b6f91eec1ff0225cbcd0761da20d20563f059a
     keywords:
@@ -22,7 +22,7 @@ entries:
   enketo:
   - apiVersion: v2
     appVersion: 4.1.2
-    created: "2024-01-29T10:45:28.008736669+03:00"
+    created: "2024-01-29T11:16:00.82794018+03:00"
     description: A Helm chart for enketo-express
     digest: 6331a761e75765a8c6a4579cdc918cf9e983645abc4ac3d909999dec2db33694
     home: https://github.com/enketo/enketo-express
@@ -33,7 +33,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 4.1.2
-    created: "2024-01-29T10:45:28.007631806+03:00"
+    created: "2024-01-29T11:16:00.826815659+03:00"
     description: A Helm chart for enketo-express
     digest: fa09791afc84effbecdeb605ebd8b29349a2e2eb8137373ae52cb0e5150a9285
     home: https://github.com/enketo/enketo-express
@@ -44,7 +44,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 4.1.2
-    created: "2024-01-29T10:45:28.006539966+03:00"
+    created: "2024-01-29T11:16:00.82536086+03:00"
     description: A Helm chart for enketo-express
     digest: 9cbcbf1e6aed503e8a2b2b6d9460ef0ac5ca884adc1825b73f7a61b1f01ddc11
     home: https://github.com/enketo/enketo-express
@@ -56,7 +56,17 @@ entries:
   kpi:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-01-29T10:45:28.013705793+03:00"
+    created: "2024-01-29T11:16:00.833261665+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 8ab3786f35f8088ac6ce76b73edaca0a8fa32d73f9e638ac6d88eead46e23338
+    name: kpi
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/onaio/helm-charts/gh-pages/kpi/kpi-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-29T11:16:00.832161602+03:00"
     description: A Helm chart for Kubernetes
     digest: 39062a354a1044923d7782bb9b6329f4bfdcb18fa301c606c436634bacb79ef4
     name: kpi
@@ -66,7 +76,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-01-29T10:45:28.012601798+03:00"
+    created: "2024-01-29T11:16:00.831012806+03:00"
     description: A Helm chart for Kubernetes
     digest: f7cca70596c3acba31416fed4bf7d286b99d29074415e93a82d9da13d96f1d5d
     name: kpi
@@ -76,7 +86,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-01-29T10:45:28.011442661+03:00"
+    created: "2024-01-29T11:16:00.829975375+03:00"
     description: A Helm chart for Kubernetes
     digest: c962b4ccf6548e6a1222d02762f9859da027602f230fdfdec575bffeb834ebea
     name: kpi
@@ -86,7 +96,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-01-29T10:45:28.010312367+03:00"
+    created: "2024-01-29T11:16:00.828969918+03:00"
     description: A Helm chart for Kubernetes
     digest: d8416d5f4a0422039e7ded31da14c28a527e00a4a7e0c6913627ef8e9c95c5ef
     name: kpi
@@ -97,7 +107,7 @@ entries:
   onadata:
   - apiVersion: v2
     appVersion: v3.16.0
-    created: "2024-01-29T10:45:28.050785317+03:00"
+    created: "2024-01-29T11:16:00.866713021+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: bb6044b8eef5500a245bd68f366fe4a7dce986b9c6a538adfb33ea8cf1b4dbfa
     name: onadata
@@ -107,7 +117,7 @@ entries:
     version: 1.1.7
   - apiVersion: v2
     appVersion: v3.16.0
-    created: "2024-01-29T10:45:28.048297026+03:00"
+    created: "2024-01-29T11:16:00.864810695+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: 6e784dfc6022ddef945ec2913a7f388cd03a972459d5008f60146f8b4fb91c54
     name: onadata
@@ -117,7 +127,7 @@ entries:
     version: 1.1.6
   - apiVersion: v2
     appVersion: v3.16.0
-    created: "2024-01-29T10:45:28.045850376+03:00"
+    created: "2024-01-29T11:16:00.862342404+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: 938391a597f17ea3a703279972624f2e520a5e4b3d8f13c74ff7f941ebd0ec61
     name: onadata
@@ -127,7 +137,7 @@ entries:
     version: 1.1.5
   - apiVersion: v2
     appVersion: v3.16.0
-    created: "2024-01-29T10:45:28.04264972+03:00"
+    created: "2024-01-29T11:16:00.860458808+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: 6195068cbe3c304fb589ff60f77975a348b8443e0cede0ce3efb4756d09274df
     name: onadata
@@ -137,7 +147,7 @@ entries:
     version: 1.1.4
   - apiVersion: v2
     appVersion: v3.16.0
-    created: "2024-01-29T10:45:28.040292277+03:00"
+    created: "2024-01-29T11:16:00.858484079+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: 992ce6f44aa9295324144e9349ff053ff6dbbad661120eaf013b16f1d0527be2
     name: onadata
@@ -147,7 +157,7 @@ entries:
     version: 1.1.3
   - apiVersion: v2
     appVersion: v3.16.0
-    created: "2024-01-29T10:45:28.037913888+03:00"
+    created: "2024-01-29T11:16:00.856386549+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: e246e5bf52f0fdae6eabea2df9d4081f88a06d9c5607aa40d174916fe0bc7668
     name: onadata
@@ -157,7 +167,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: v3.16.0
-    created: "2024-01-29T10:45:28.035463607+03:00"
+    created: "2024-01-29T11:16:00.853482759+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: 9b6989819525e932b23676c89941943a5e2593eaf04e90c1b362130bd6c42bb5
     name: onadata
@@ -167,7 +177,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: v3.16.0
-    created: "2024-01-29T10:45:28.03200608+03:00"
+    created: "2024-01-29T11:16:00.851239854+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: 04af054a3684f56b8b0b17efa96ab98a04a41bb17d98a677f6433e69bce64c1f
     name: onadata
@@ -177,7 +187,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: v3.16.0
-    created: "2024-01-29T10:45:28.029335357+03:00"
+    created: "2024-01-29T11:16:00.848615401+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: fa9dbad8c88852834f3fab0595f4c0cd553b7a7b3c25791508fa5238614eac50
     name: onadata
@@ -187,7 +197,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: v3.16.0
-    created: "2024-01-29T10:45:28.026944483+03:00"
+    created: "2024-01-29T11:16:00.846189961+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: 35c86d33a10976fe23621326dc845d79fbf9344194aa67a7da225d2905a74763
     name: onadata
@@ -197,7 +207,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: v3.17.0
-    created: "2024-01-29T10:45:28.024221221+03:00"
+    created: "2024-01-29T11:16:00.843217152+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: 141beae28968de81c33e9a4d500abd00af8fc16d40bba3a6c147a91989d54d62
     name: onadata
@@ -207,7 +217,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: v3.16.0
-    created: "2024-01-29T10:45:28.021479147+03:00"
+    created: "2024-01-29T11:16:00.840912011+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: a6481c5d535db849c80343847335b779cb623b75ff9d070bacb7c5627000f15d
     name: onadata
@@ -217,7 +227,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: v3.0.3
-    created: "2024-01-29T10:45:28.019058266+03:00"
+    created: "2024-01-29T11:16:00.838493991+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: 71c93702e305547c3cfa17bce0fedc4ffa5eb6876a6567b47226b524194f47f8
     name: onadata
@@ -227,7 +237,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: v3.0.3
-    created: "2024-01-29T10:45:28.016633046+03:00"
+    created: "2024-01-29T11:16:00.835841304+03:00"
     description: A Helm chart that deploys the OnaData application
     digest: eabd39ee208f6b76d00f0bfa16c6e2649b1bfd88e178b846e0a052e28786b004
     name: onadata
@@ -238,7 +248,7 @@ entries:
   pgbouncer:
   - apiVersion: v2
     appVersion: 1.21.0
-    created: "2024-01-29T10:45:28.051372861+03:00"
+    created: "2024-01-29T11:16:00.867185611+03:00"
     description: A Helm chart for deploying bitnami/pgbouncer with TLS encryption
       and external secret support.
     digest: 1f77a1852f1a9abd6359522207341a7b38a1392de491b0b7a383fa55b845f9b0
@@ -265,7 +275,7 @@ entries:
   zebra:
   - apiVersion: v2
     appVersion: v3.13.2
-    created: "2024-01-29T10:45:28.063778086+03:00"
+    created: "2024-01-29T11:16:00.877008208+03:00"
     description: A Helm chart for Kubernetes
     digest: e8b94029e4740e501e33b019fa94469b21d09f3283fe9d1ddcf78d62042f1120
     name: zebra
@@ -275,7 +285,7 @@ entries:
     version: 0.3.9
   - apiVersion: v2
     appVersion: v3.13.2
-    created: "2024-01-29T10:45:28.062003144+03:00"
+    created: "2024-01-29T11:16:00.875973893+03:00"
     description: A Helm chart for Kubernetes
     digest: 666daf0c276891b4892f391a0d08ec6ffb6c7358492a9f13a474a33d64b2eb38
     name: zebra
@@ -285,7 +295,7 @@ entries:
     version: 0.3.8
   - apiVersion: v2
     appVersion: v3.13.2
-    created: "2024-01-29T10:45:28.060729838+03:00"
+    created: "2024-01-29T11:16:00.874943131+03:00"
     description: A Helm chart for Kubernetes
     digest: df9df9871eda647d434cc80b3fc7f94d9d023044cc8a5e39a6a4f9d5e0cbbef7
     name: zebra
@@ -295,7 +305,7 @@ entries:
     version: 0.3.7
   - apiVersion: v2
     appVersion: v3.13.2
-    created: "2024-01-29T10:45:28.059512683+03:00"
+    created: "2024-01-29T11:16:00.873955317+03:00"
     description: A Helm chart for Kubernetes
     digest: 2231571fe399fd60bc68d90207e8c0fb927966e6938edf415d3e59a30757bdc2
     name: zebra
@@ -305,7 +315,7 @@ entries:
     version: 0.3.6
   - apiVersion: v2
     appVersion: v3.13.2
-    created: "2024-01-29T10:45:28.058298924+03:00"
+    created: "2024-01-29T11:16:00.872968217+03:00"
     description: A Helm chart for Kubernetes
     digest: fcdc8b9c46222e15d01c2a6d0a19b8019afd9185319b3112db8f31ce46c3a0b2
     name: zebra
@@ -315,7 +325,7 @@ entries:
     version: 0.3.5
   - apiVersion: v2
     appVersion: v3.13.2
-    created: "2024-01-29T10:45:28.057079074+03:00"
+    created: "2024-01-29T11:16:00.871953492+03:00"
     description: A Helm chart for Kubernetes
     digest: 1b2fb59eea0ccc7514a7b663687a77d3f30f2b9dfb459c47de234e1268907abb
     name: zebra
@@ -325,7 +335,7 @@ entries:
     version: 0.3.4
   - apiVersion: v2
     appVersion: v3.13.2
-    created: "2024-01-29T10:45:28.055842333+03:00"
+    created: "2024-01-29T11:16:00.870946311+03:00"
     description: A Helm chart for Kubernetes
     digest: de4fec782f11f2b02a5d82c2eb3e7c99fe7a323440ca891a86a5bbbc561b200a
     name: zebra
@@ -335,7 +345,7 @@ entries:
     version: 0.3.3
   - apiVersion: v2
     appVersion: 2.2.4
-    created: "2024-01-29T10:45:28.054595117+03:00"
+    created: "2024-01-29T11:16:00.869299694+03:00"
     description: A Helm chart for Kubernetes
     digest: 83de5dddf33e2648d6730fe5684c04f505847a9af01dbb20dac388452d3a8455
     name: zebra
@@ -345,7 +355,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 2.2.4
-    created: "2024-01-29T10:45:28.052713282+03:00"
+    created: "2024-01-29T11:16:00.868269451+03:00"
     description: A Helm chart for Kubernetes
     digest: 45d858f59bd59ca6c91f324ed6577767a38a0ba4674877591e54992d0078aac4
     name: zebra
@@ -353,4 +363,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/onaio/helm-charts/gh-pages/zebra/zebra-0.3.0.tgz
     version: 0.3.0
-generated: "2024-01-29T10:45:28.004026523+03:00"
+generated: "2024-01-29T11:16:00.823216065+03:00"
