@@ -31,3 +31,7 @@ For more information about a chart, run the following command:
 ```bash
 helm show readme ona/<chart-name>
 ```
+
+## Contributing
+
+To contribute to this repository, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
