@@ -773,4 +773,24 @@ entries:
     urls:
     - https://raw.githubusercontent.com/onaio/helm-charts/gh-pages/zebra/zebra-0.3.0.tgz
     version: 0.3.0
+  trivy-k8s-scanner:
+  - apiVersion: v2
+    appVersion: v0.1.1
+    created: "2024-09-19T23:19:17.411045227+03:00"
+    description: A Helm chart for Trivy cronjob to send reports to S3
+    digest: 6a665ae65730d4793865ba4542c1840b11a140dc852f19c063930e74f587057d
+    name: trivy-k8s-scanner
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/onaio/helm-charts/gh-pages/trivy-k8s-scanner/trivy-k8s-scanner-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-09-19T23:19:17.410381232+03:00"
+    description: A Helm chart for Trivy cronjob to send reports to S3
+    digest: ce3a526f3f1b7fd5633dd99b136b2e6190c62d2bfd28cbd35e155950d3136782
+    name: trivy-k8s-scanner
+    urls:
+    - https://raw.githubusercontent.com/onaio/helm-charts/gh-pages/trivy-k8s-scanner/trivy-k8s-scanner-0.1.0.tgz
+    version: 0.1.0
 generated: "2024-09-13T18:28:19.628992636+03:00"
