@@ -29,7 +29,7 @@ This will help keep the repository organized and make it easier to manage the ch
 For Helm to be able to find the charts in this repository, you need to update the `index.yaml` file. To do this, run the following command:
 
 ```bash
-helm repo index --url https://raw.githubusercontent.com/onaio/helm-charts/master/ index.yaml .
+helm repo index --url https://raw.githubusercontent.com/onaio/helm-charts/gh-pages/ .
 ```
 
 This will update the `index.yaml` file with the new chart information. Make sure to commit this file and push it to the repository, then create a pull request.
